@@ -32,10 +32,6 @@ const audioVisualizerAtom = atomWithStorage("audioVisualizer", "strawberry");
 
 const audioVisualizerList = [
   {
-    id: "NinjaTech",
-    display: "🥷",
-  },
-  {
     id: "gradient",
     display: "🖲️",
   },
