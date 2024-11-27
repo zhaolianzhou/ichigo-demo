@@ -31,26 +31,26 @@ export default function RootLayout({
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="/favicons/apple-touch-icon.png"
+          href="/favicons/.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="/favicons/favicon-32x32.png"
+          href="/favicons/ninja_logo.png"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="/favicons/favicon-16x16.png"
+          href="/favicons/ninja_logo.png"
         />
         <link rel="manifest" href="/favicons/site.webmanifest" />
-        <link
-          rel="mask-icon"
-          href="/favicons/safari-pinned-tab.svg"
-          color="#de8f1b"
-        />
+        {/*<link*/}
+        {/*  rel="mask-icon"*/}
+        {/*  href="/favicons/safari-pinned-tab.svg"*/}
+        {/*  color="#de8f1b"*/}
+        {/*/>*/}
         <meta name="msapplication-TileColor" content="#ffc40d" />
         <meta name="theme-color" content="#ffffff" />
       </head>

@@ -1,12 +1,13 @@
 import React from "react";
+import NinjaLogo from './../../public/favicons/ninja_logo.svg';
 
 const Logo = () => {
-  // @ts-ignore
   return (
-      <link
-          rel="mask-icon"
-          href="/favicons/ninja_logo.svg"
-      />
+      <div>
+        {/* Inline SVG rendering */}
+        <NinjaLogo />
+        <img src={NinjaLogo} alt="NinjaTech" style={{width: '100px', height: '100px'}}/>
+      </div>
   );
 };
 
