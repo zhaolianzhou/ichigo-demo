@@ -49,7 +49,7 @@ services:
       NAME: TabbyAPI
       NVIDIA_VISIBLE_DEVICES: all
     volumes:
-      - /mnt/nas/llama3s/:/app/models
+      - /home/ubuntu/ichigo-demo/docker/tabbyAPI-personal-fork/models:/app/models
       - ./tabbyapi/config.yml:/app/config.yml
     deploy:
       resources:

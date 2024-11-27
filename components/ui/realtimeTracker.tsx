@@ -30,7 +30,7 @@ const RealtimeTracker: React.FC = () => {
 
   return (
     <div className="text-center">
-      <p className="font-medium my-1">Hosted on a single 3090🔥</p>
+      {/* <p className="font-medium my-1">Hosted on H100</p> */}
       <div className="flex items-center justify-center gap-2">
         <div className="flex items-center gap-1 border border-border px-2 py-1 rounded-md">
           <TooltipProvider delayDuration={0}>
