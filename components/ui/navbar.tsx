@@ -14,7 +14,7 @@ const Navbar = () => {
         <span className="font-medium">NinjaTech</span>
       </div>
       <RealtimeTracker />
-      {/*<div className=" gap-4 text-foreground items-center hidden md:flex">*/}
+      <div className=" gap-4 text-foreground items-center hidden md:flex">
       {/*  <a href="https://github.com/homebrewltd/ichigo" target="_blank">*/}
       {/*    <FaGithub size={20} />*/}
       {/*  </a>*/}
@@ -24,8 +24,8 @@ const Navbar = () => {
       {/*  <a href="https://x.com/homebrewltd" target="_blank">*/}
       {/*    <FaXTwitter size={20} />*/}
       {/*  </a>*/}
-      {/*  <ThemeSwitch />*/}
-      {/*</div>*/}
+        <ThemeSwitch />
+      </div>
     </nav>
   );
 };
