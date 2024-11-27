@@ -32,8 +32,8 @@ const audioVisualizerAtom = atomWithStorage("audioVisualizer", "strawberry");
 
 const audioVisualizerList = [
   {
-    id: "strawberry",
-    display: "🍓",
+    id: "NinjaTech",
+    display: "🥷",
   },
   {
     id: "gradient",
@@ -42,11 +42,7 @@ const audioVisualizerList = [
   {
     id: "vertex",
     display: "🌐",
-  },
-  {
-    id: "old-straw",
-    display: "🍓",
-  },
+  }
 ];
 
 const queue = new PQueue({ concurrency: 1 });
