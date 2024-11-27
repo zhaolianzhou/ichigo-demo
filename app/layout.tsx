@@ -15,8 +15,8 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "Ichigo - Homebrew",
-  description: "Ichigo model from Homebrew Research.",
+  title: "NinjaTech - Homebrew",
+  description: "NinjaTech model based on Homebrew Research.",
 };
 
 export default function RootLayout({
